@@ -1,4 +1,4 @@
-import * as TS from './01PrimitiveAndObject';
+import * as TS from './01-primitive-and-object';
 
 // 理解原始类型与对象类型
 TS.primitive();
