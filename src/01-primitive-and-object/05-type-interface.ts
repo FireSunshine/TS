@@ -1,4 +1,7 @@
 export default function typeAndInterface() {
+  /**
+   * 类型别名 & interface
+   */
   interface IObjectStruct {
     name: string;
     age: number;

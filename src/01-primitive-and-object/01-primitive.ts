@@ -1,4 +1,7 @@
 export default function primitive() {
+  /**
+   * 原始类型
+   */
   const name: string = 'sunshine';
   const age: number = 24;
   const male: boolean = true;

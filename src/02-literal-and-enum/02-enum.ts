@@ -1,4 +1,7 @@
 export default function demoEnum() {
+  /**
+   * 枚举
+   */
   enum Pageurl {
     Home_Page_Url = 'url1',
     Setting_Page_Url = 'url2',

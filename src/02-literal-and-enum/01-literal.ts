@@ -11,6 +11,9 @@ interface Res {
 }
 
 export default function literal() {
+  /**
+   * 字面量
+   */
   // 字面量类型主要包括字符串字面量类型、数字字面量类型、布尔字面量类型和对象字面量类型，它们可以直接作为类型标注
   const str: 'sunshine' = 'sunshine';
   const age: 24 = 24;
