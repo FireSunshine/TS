@@ -1,6 +1,7 @@
 import * as TS01 from './01-primitive-and-object';
 import * as TS02 from './02-literal-and-enum';
 import * as TS03 from './03-function-and-class';
+import * as TS04 from './04-any-unknown-never/';
 
 /**
  * 理解原始类型与对象类型
@@ -28,3 +29,11 @@ import * as TS03 from './03-function-and-class';
 // TS03.asyncFunc(); // 异步函数
 // TS03.demoClass(); // 类
 // TS03.extend_abstract_callable(); // 继承、实现、抽象类
+
+/**
+ * any-unknown-never
+ */
+TS04.demoAny(); // any
+TS04.demoUnknown(); // unknown
+TS04.demoNever(); // never
+TS04.assertion(); // 断言
